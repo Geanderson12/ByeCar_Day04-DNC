@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByeCar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:ital,wght@0,100;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <img src="/assets/logo.svg">
+        <p class="logomarca">ByeCar</p>
+    </nav>
+
+    <section>
+        <div class="fixa">
+            <p class="subtitle">Ter <b>uma moto</b> por assinatura nunca foi tão fácil!</p>
+            <div class="layout">
+                <img src="assets/image 9.png">
+            </div>
+        </div>
+
+        <div class="movel">
+            <p class="subtitle">Conheça nossas <strong>motos</strong>!</p>
+
+            <div class="carousel">
+                <button id="prev-button">
+                    <img src="./assets/left-arrow.png" alt="left arrow" />
+                </button>
+
+                <ul class="carousel-cards">
+                    <li class="on card">
+                        <h1>Scooter Elétrica Voltz EV1</h1>
+                        <img src="./assets/scooter.png" alt="" />
+                        <div class="informacoes">
+                            <h2>A partir de</h2>
+                            <span>R$ 619,90</span>
+                            <h3>Plano de 30 meses</h3>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <h1>Honda CB 500X</h1>
+                        <img src="./assets/honda.png" alt="" />
+                        <div class="informacoes">
+                            <h2>A partir de</h2>
+                            <span>R$ 999,90</span>
+                            <h3>Plano de 24 meses</h3>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <h1>CG 160 Branca</h1>
+                        <img src="./assets/cg160.png.png" alt="" />
+                        <div class="informacoes">
+                            <h2>A partir de</h2>
+                            <span>R$ 399,90</span>
+                            <h3>Plano de 60 meses</h3>
+                        </div>
+                    </li>
+                </ul>
+
+                <button id="next-button">
+                    <img src="./assets/right-arrow.png" alt="right arrow" />
+                </button>
+            </div>
+            <button class="saibaMais">
+                Saiba Mais
+            </button>
+
+        </div>
+
+        
+        </div>
+
+        <div class="modal" id="modal"></div>
+    </section>
+</body>
+
+</html>
