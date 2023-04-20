@@ -153,12 +153,15 @@ li {
     padding: 2.0rem;
     align-items: center;
     width: 100%;
-    opacity: 10;
+    opacity: 0;
     display: none;
+    transition: opacity 2s;
 }
 
 .on {
     display: block;
+    opacity: 1;
+    transition: opacity 2s;
 }
 
 

@@ -2,6 +2,8 @@ const carousel = document.querySelectorAll('.card');
 const btnPrev = document.getElementById('prev-button');
 const btnNext = document.getElementById('next-button');
 
+
+setInterval(nextSlide, 5000)
 let currentSlide = 0;
 
 function hideSlide() {
@@ -26,7 +28,7 @@ function nextSlide() {
 function prevSlide() {
     hideSlide()
     if (currentSlide === 0) {
-        currentSlide = carousel.length -1
+        currentSlide = carousel.length - 1
     } else {
         currentSlide--
     }
@@ -40,3 +42,4 @@ btnPrev.addEventListener('click', ()=> alert('clicou'))
 
 btnNext.addEventListener('click', nextSlide)
 btnPrev.addEventListener('click', prevSlide)
+
